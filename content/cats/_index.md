@@ -2,7 +2,7 @@
 title: "Cats"
 date: 2020-03-15T14:06:11-06:00
 resources:
-- src: cats/cat_01.jpg
+- src: https://gatohimalayo.com/
   alt: Cat in the grass
   phototitle: Grass cat
   description: This cat stalks through the grass
