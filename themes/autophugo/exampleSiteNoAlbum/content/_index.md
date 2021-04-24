@@ -5,8 +5,7 @@ resources:
   alt: Cat in the grass
   phototitle: Grass cat
   description: This cat stalks through the grass
-- src: 
-cat_05 https://gatohimalayo.com/wp-content/uploads/2020/07/Joven-Gato-Himalayo.jpg
+- src: cat_05 https://gatohimalayo.com/wp-content/uploads/2020/07/Joven-Gato-Himalayo.jpg
 
   alt: A cat in some sort of urban setting
   phototitle: Cool cat
