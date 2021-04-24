@@ -1,0 +1,75 @@
+baseurl = "http://example.org/"
+languageCode = "en-us"
+title = "AutoPhugo"
+theme = "autophugo"
+disableKinds = [ "taxonomy", "taxonomyTerm" ]
+themesDir = "themes"
+baseURL = ""
+publishDir = "public"
+
+[Author]
+name = "Karl Sickendick"
+email = "kc0bfv@gmail.com"
+
+[params]
+description = "AutoPhugo - Photo Gallery on Hugo"
+keywords = "phugo, hugo, photogallery, photoblog, hugo theme"
+
+[[params.header.links]]
+name = "About"
+url = "#footer"
+icon = "fa-info-circle"
+
+[params.footer.paragraph]
+headline = "Magna feugiat sed adipiscing"
+text = "Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum eget quis orci mattis aliquet. Maecenas fringilla et ante at lorem et ipsum. Dolor nulla eu bibendum sapien. Donec non pharetra dui. Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum."
+
+[params.footer.social]
+headline = "Follow me"
+
+  [[params.footer.social.links]]
+  label = "Twitter"
+  url = "#"
+  icon = "fa-twitter"
+
+  [[params.footer.social.links]]
+  label = "Facebook"
+  url = "#"
+  icon = "fa-facebook"
+
+  [[params.footer.social.links]]
+  label = "Instagram"
+  url = "#"
+  icon = "fa-instagram"
+
+  [[params.footer.social.links]]
+  label = "Github"
+  url = "#"
+  icon = "fa-github"
+
+  [[params.footer.social.links]]
+  label = "LinkedIn"
+  url = "#"
+  icon = "fa-linkedin"
+
+[params.footer.contact]
+hide = false
+realEmail = "example@example.org"
+headline = "Get in touch"
+buttonText = "Send"
+resetText = "Reset"
+
+  [params.footer.contact.name]
+  text = "Name *"
+  warning = "Please, enter your name"
+
+  [params.footer.contact.email]
+  text = "Email *"
+  warning = "Please, enter your email."
+
+  [params.footer.contact.message]
+  text = "Message *"
+  warning = "Please, enter your message"
+
+[params.footer.copyright]
+name = "Your name"
